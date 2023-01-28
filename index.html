@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contator de Vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header><b>MARCADOR DE VIDA</b></header>
+
+    <div class="container">
+        <div class="div1" id="div1">
+            <fieldset>
+                <legend><b>Jogador 1</b></legend><br>
+
+                <div class="NomeMark">
+                    <input type="text" class="nome"  id="nome" required autocomplete="off">
+                    <label for="nome" class="LabelInput">Nome do jogador</label><br><br>
+                </div>
+
+                <div class="NomeMark">
+                    <input type="text" class="nome" id="nome" required autocomplete="off">
+                    <label for="nome" class="LabelInput">Mortes do Commander</label><br>
+                </div>
+                
+                <div class="marcador">
+                    <div class="botao5">
+                        <input type="button" class="btn5"  id="BtnJogador1Menos5" value="-5">
+                    </div>
+                    <div class="botao1">
+                        <input type="button" class="btn1" id="BtnJogador1Menos1" value="-">
+                    </div>
+                    <label for="ZerarReset" class="LabelMarcador" id="LabelMarcadorJogador1">0</label>
+                    <div class="botao1">
+                        <input type="button" class="btn1" id="BtnJogador1Mais1" value="+">
+                    </div>
+                    <div class="botao5">
+                        <input type="button" class="btn5" id="BtnJogador1Mais5" value="+5">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="ZerarReset">
+                    <div class="BtnZerar">
+                        <input type="button" class="zerar" value="Zerar" id="BtnJogador1Zerar">
+                    </div>
+                    <div class="BtnReset">
+                        <input type="button" class="reset" value="Resetar" id="BtnJogador1Resetar">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="DivDados">
+                    <div class="d20">
+                        <div id="DivIMG">
+                            <button class="btnIMG" id="1btnIMGd20"><img src="d20.jpg" alt="" id="imgd20"></button>
+                        </div>
+                        <label for="imgd20" class="LabelDados" id="1LabelD20">0</label>
+                    </div>
+
+                    <div class="d6">
+                        <div id="DivIMG">
+                            <button class="btnIMG" id="1btnIMGd6"><img src="d6.jpg" alt="" id="imgd6"></button>
+                        </div>
+                        <label for="imgd6"class="LabelDados" id="1LabelD6">0</label>
+                    </div>
+                </div>
+
+            </fieldset>
+
+        </div>
+
+        <!--jogador 1 ate aqui-->
+
+        <div class="div2" id="div2">
+            <fieldset>
+                <legend><b>Jogador 2</b></legend><br>
+
+                <div class="NomeMark">
+                    <input type="text" class="nome" id="nome" required autocomplete="off">
+                    <label for="nome" class="LabelInput">Nome do jogador</label><br><br>
+                </div>
+
+                <div class="NomeMark">
+                    <input type="text" class="nome" id="nome" required autocomplete="off">
+                    <label for="nome" class="LabelInput">Mortes do Commander</label><br>
+                </div>
+
+                <div class="marcador">
+                    <div class="botao5">
+                        <input type="button" class="btn5"  id="BtnJogador2Menos5" value="-5">
+                    </div>
+                    <div class="botao1">
+                        <input type="button" class="btn1" id="BtnJogador2Menos1" value="-">
+                    </div>
+                    <label for="marcador" class="LabelMarcador" id="LabelMarcadorJogador2">0</label>
+                    <div class="botao1">
+                        <input type="button" class="btn1"  id="BtnJogador2Mais1"value="+">
+                    </div>
+                    <div class="botao5">
+                        <input type="button" class="btn5"  id="BtnJogador2Mais5"value="+5">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="ZerarReset">
+                    <div class="BtnZerar">
+                        <input type="button" class="zerar" value="Zerar" id="BtnJogador2Zerar">
+                    </div>
+                    <div class="BtnReset">
+                        <input type="button" class="reset" value="Resetar" id="BtnJogador2Resetar">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="DivDados">
+                    <div class="d20">
+                        <div id="DivIMG">
+                            <button class="btnIMG" id="2btnIMGd20"><img src="d20.jpg" alt="" id="imgd20"></button>
+                        </div>
+                        <label for="imgd20"class="LabelDados" id="2LabelD20">0</label>
+                    </div>
+
+                    <div class="d6">
+                        <div id="DivIMG">
+                            <button class="btnIMG" id="2btnIMGd6"><img src="d6.jpg" alt="" id="imgd6"></button>
+                        </div>
+                        <label for="imgd6"class="LabelDados" id="2LabelD6">0</label>
+                    </div>
+                </div>
+
+
+            </fieldset>
+
+            
+        </div>
+
+        <!--jogador 2 ate aqui-->
+        
+        <div class="div3" id="div3">
+            <fieldset>
+                <legend><b>Jogador 3</b></legend><br>
+
+                <div class="NomeMark">
+                    <input type="text" class="nome" id="nome" required autocomplete="off">
+                    <label for="nome" class="LabelInput">Nome do jogador</label><br><br>
+                </div>
+
+                <div class="NomeMark">
+                    <input type="text" class="nome" id="nome" required autocomplete="off">
+                    <label for="nome" class="LabelInput">Mortes do Commander</label><br>
+                </div>
+
+                <div class="marcador">
+                    <div class="botao5">
+                        <input type="button" class="btn5" id="BtnJogador3Menos5" value="-5">
+                    </div>
+                    <div class="botao1">
+                        <input type="button" class="btn1"  id="BtnJogador3Menos1" value="-">
+                    </div>
+                    <label for="marcador"class="LabelMarcador" id="LabelMarcadorJogador3">0</label>
+                    <div class="botao1">
+                        <input type="button" class="btn1"   id="BtnJogador3Mais1" value="+">
+                    </div>
+                    <div class="botao5">
+                        <input type="button" class="btn5"  id="BtnJogador3Mais5" value="+5">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="ZerarReset">
+                    <div class="BtnZerar">
+                        <input type="button" class="zerar" value="Zerar" id="BtnJogador3Zerar">
+                    </div>
+                    <div class="BtnReset">
+                        <input type="button" class="reset" value="Resetar" id="BtnJogador3Resetar">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="DivDados">
+                    <div class="d20">
+                        <div id="DivIMG">
+                            <button class="btnIMG" id="3btnIMGd20"><img src="d20.jpg" alt="" id="imgd20"></button>
+                        </div>
+                        <label for="imgd20"class="LabelDados" id="3LabelD20">0</label>
+                    </div>
+
+                    <div class="d6">
+                        <div id="DivIMG">
+                            <button class="btnIMG" id="3btnIMGd6"><img src="d6.jpg" alt="" id="imgd6"></button>
+                        </div>
+                        <label for="imgd6"class="LabelDados" id="3LabelD6">0</label>
+                    </div>
+                </div>
+
+
+
+            </fieldset>
+
+        </div>
+
+        <!--jogador 3 ate aqui-->
+
+        <div class="div4" id="div4">
+            <fieldset>
+                <legend><b>Jogador 4</b></legend><br>
+
+                <div class="NomeMark">
+                    <input type="text" class="nome" id="nome"  required autocomplete="off"> 
+                    <label for="nome" class="LabelInput">Nome do jogador</label><br><br>
+                </div>
+
+                <div class="NomeMark">
+                    <input type="text" class="nome" id="nome" required autocomplete="off">
+                    <label for="nome" class="LabelInput">Mortes do Commander</label><br>
+                </div>
+
+                <div class="marcador">
+                    <div class="botao5">
+                        <input type="button" class="btn5" id="BtnJogador4Menos5" value="-5">
+                    </div>
+                    <div class="botao1">
+                        <input type="button" class="btn1" id="BtnJogador4Menos1" value="-">
+                    </div>
+                    <label for="marcador"class="LabelMarcador" id="LabelMarcadorJogador4">0</label>
+                    <div class="botao1">
+                        <input type="button" class="btn1" id="BtnJogador4Mais1" value="+">
+                    </div>
+                    <div class="botao5">
+                        <input type="button" class="btn5" id="BtnJogador4Mais5" value="+5">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="ZerarReset">
+                    <div class="BtnZerar">
+                        <input type="button" class="zerar" value="Zerar" id="BtnJogador4Zerar">
+                    </div>
+                    <div class="BtnReset">
+                        <input type="button" class="reset" value="Resetar" id="BtnJogador4Resetar">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="DivDados">
+                    <div class="d20">
+                        <div id="DivIMG">
+                            <button class="btnIMG" id="4btnIMGd20"><img src="d20.jpg" alt="" id="imgd20"></button>
+                        </div>
+                        <label for="imgd20"class="LabelDados" id="4LabelD20">0</label>
+                    </div>
+
+                    <div class="d6">
+                        <div id="DivIMG">
+                            <button class="btnIMG" id="4btnIMGd6"><img src="d6.jpg" alt="" id="imgd6"></button>
+                        </div>
+                        <label for="imgd6"class="LabelDados" id="4LabelD6">0</label>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            
+        </div>
+
+    <!--jogador 4 ate aqui-->
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

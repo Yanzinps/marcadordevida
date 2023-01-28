@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 20px;
+    background-image: linear-gradient( darkblue,white);;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    opacity: 90%;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 941px;
+ 
+
+}
+
+.div1, .div3{
+    width:24%;
+    height: 500px;
+    padding: 20px;
+    background-image: linear-gradient(to right, dodgerblue, darkblue);
+    border-radius: 25px;
+
+}
+
+.div2, .div4{
+    width:24%;
+    height: 500px;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(99, 99, 172), dodgerblue);
+    border-radius: 25px;
+
+}
+
+
+fieldset{
+    width: auto;
+    height: 450px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+legend{
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+}
+
+.marcador{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.ZerarReset{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.DivDados{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.d20, .d6{
+    display: flex;
+    
+
+}
+
+#DivIMG{
+    background-color: white;
+    width: 50px;
+    height: 46px;
+    margin: 5px;
+    
+    
+}
+
+.btnIMG{
+    width: 50px;
+    height: 46px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn1, .btn5, .zerar, .reset{
+    cursor: pointer;
+}
+
+.btn1, .btn5{
+    padding: 5px;
+    margin: 5px;
+    width: 40px;
+    height: 45px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(109, 198, 250), white);
+    box-shadow: 2px 2px 5px;
+}
+
+.btn1:hover{
+    background-image: linear-gradient(rgb(52, 129, 173), rgb(223, 64, 64));
+}
+.btn5:hover{
+    background-image: linear-gradient(rgb(52, 129, 173), rgb(223, 64, 64));
+}
+.reset:hover{
+    background-image: linear-gradient(rgb(52, 129, 173), rgb(223, 64, 64));
+}
+.zerar:hover{
+    background-image: linear-gradient(rgb(52, 129, 173), rgb(223, 64, 64));
+}
+
+
+.zerar, .reset{
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(109, 198, 250), white);
+    box-shadow: 2px 2px 5px;
+    
+}
+
+.LabelMarcador{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.LabelDados{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+
+
+.NomeMark{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+}
+
+
+.nome{
+    width: 100%;
+    border: none;
+    outline: none;
+    background:none;
+    border-bottom: 2px solid white;
+    pointer-events: fill;
+    transition: 0.5;
+    font-size: 17px;
+    color: white;
+}
+
+.LabelInput{
+    position: relative;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+.nome:focus ~ .LabelInput, .nome:valid~ .LabelInput{
+    color: rgb(241, 65, 21);
+    top:5px;
+    font-size: 14px;
+}
+
+
+
+@media(max-width: 900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .div1, .div2, .div3, .div4{
+        width: fit-content;
+        margin-bottom: 10px;
+
+    }
+}
